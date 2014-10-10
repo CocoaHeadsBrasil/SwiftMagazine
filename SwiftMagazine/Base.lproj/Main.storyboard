@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="W89-ft-KLv">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="5Vc-kM-ta1">
+            <objects>
+                <tableViewController id="qbQ-lj-srW" customClass="LibraryTableViewController" customModule="SwiftMagazine" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="D7Y-bY-ega">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellFeatured" rowHeight="120" id="rDk-5J-53G" customClass="FeaturedTableViewCell" customModule="SwiftMagazine" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rDk-5J-53G" id="twJ-hd-wh8">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.059999999999999998" colorSpace="calibratedWhite"/>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellMagazines" rowHeight="120" id="pdm-05-jw9" customClass="MagazineTableViewCell" customModule="SwiftMagazine" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pdm-05-jw9" id="G7p-TN-xfK">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magazines" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xt3-Vt-Dl7">
+                                            <rect key="frame" x="244" y="28" width="113" height="29"/>
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                            <color key="textColor" red="0.2195153534412384" green="0.21580728888511658" blue="0.21559783816337585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y4I-Cb-ZOa">
+                                            <rect key="frame" x="288" y="65" width="24" height="2"/>
+                                            <color key="backgroundColor" red="0.2195153534412384" green="0.21580728888511658" blue="0.21559783816337585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="2" id="MNW-oS-05L"/>
+                                                <constraint firstAttribute="width" constant="24" id="RML-IC-qHT"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Xt3-Vt-Dl7" firstAttribute="top" secondItem="G7p-TN-xfK" secondAttribute="topMargin" constant="20" id="LzB-w9-BqY"/>
+                                        <constraint firstAttribute="centerX" secondItem="Y4I-Cb-ZOa" secondAttribute="centerX" id="Us1-eZ-04q"/>
+                                        <constraint firstItem="Y4I-Cb-ZOa" firstAttribute="top" secondItem="Xt3-Vt-Dl7" secondAttribute="bottom" constant="8" id="apv-46-CjI"/>
+                                        <constraint firstItem="Xt3-Vt-Dl7" firstAttribute="centerX" secondItem="G7p-TN-xfK" secondAttribute="centerX" id="gNn-Ut-lb4"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.13" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="title" destination="Xt3-Vt-Dl7" id="DKE-mm-JTO"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qbQ-lj-srW" id="kOn-Qg-2WM"/>
+                            <outlet property="delegate" destination="qbQ-lj-srW" id="bZM-mO-cho"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="62B-9f-F0i"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mve-gc-wfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1944" y="443"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mpo-QP-OVc">
+            <objects>
+                <navigationController id="W89-ft-KLv" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="N3l-RU-1O1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qbQ-lj-srW" kind="relationship" relationship="rootViewController" id="UEp-pe-JQx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFB-ds-0X5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226" y="445"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9913774D19D9CB5300FEDE47 /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913774C19D9CB5300FEDE47 /* FeaturedTableViewCell.swift */; };
+		9913774F19D9CB9C00FEDE47 /* FeaturedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913774E19D9CB9C00FEDE47 /* FeaturedCollectionView.swift */; };
+		9913775119D9CBE700FEDE47 /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913775019D9CBE700FEDE47 /* FeaturedCollectionViewCell.swift */; };
+		992DC04019D0A114007D9B9A /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03519D0A114007D9B9A /* Lato-Black.ttf */; };
+		992DC04119D0A114007D9B9A /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03619D0A114007D9B9A /* Lato-BlackItalic.ttf */; };
+		992DC04219D0A114007D9B9A /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03719D0A114007D9B9A /* Lato-Bold.ttf */; };
+		992DC04319D0A114007D9B9A /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03819D0A114007D9B9A /* Lato-BoldItalic.ttf */; };
+		992DC04419D0A114007D9B9A /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03919D0A114007D9B9A /* Lato-Hairline.ttf */; };
+		992DC04519D0A114007D9B9A /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03A19D0A114007D9B9A /* Lato-HairlineItalic.ttf */; };
+		992DC04619D0A114007D9B9A /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03B19D0A114007D9B9A /* Lato-Italic.ttf */; };
+		992DC04719D0A114007D9B9A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03C19D0A114007D9B9A /* Lato-Light.ttf */; };
+		992DC04819D0A114007D9B9A /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03D19D0A114007D9B9A /* Lato-LightItalic.ttf */; };
+		992DC04919D0A114007D9B9A /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03E19D0A114007D9B9A /* Lato-Regular.ttf */; };
+		992DC04A19D0A114007D9B9A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 992DC03F19D0A114007D9B9A /* OFL.txt */; };
+		992DC04C19D0A1FF007D9B9A /* CocoaFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992DC04B19D0A1FF007D9B9A /* CocoaFonts.swift */; };
+		992DC04E19D0AD4F007D9B9A /* MagazineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992DC04D19D0AD4F007D9B9A /* MagazineCollectionViewCell.swift */; };
+		99551CA119CB577100BD4D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99551CA019CB577100BD4D51 /* AppDelegate.swift */; };
+		99551CA919CB577100BD4D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99551CA719CB577100BD4D51 /* Main.storyboard */; };
+		99551CAB19CB577100BD4D51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99551CAA19CB577100BD4D51 /* Images.xcassets */; };
+		99551CAE19CB577100BD4D51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99551CAC19CB577100BD4D51 /* LaunchScreen.xib */; };
+		99551CBA19CB577100BD4D51 /* SwiftMagazineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99551CB919CB577100BD4D51 /* SwiftMagazineTests.swift */; };
+		9984E83219D0B21100A60D40 /* Lato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984E83119D0B21100A60D40 /* Lato.swift */; };
+		999C51FD19CB5DDB00BC65CE /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C51FC19CB5DDB00BC65CE /* LibraryTableViewController.swift */; };
+		999C520319CB73F400BC65CE /* MagazineCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999C520219CB73F400BC65CE /* MagazineCollectionView.swift */; };
+		99A9A5C419D1C0A700383300 /* SpringyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A9A5C319D1C0A700383300 /* SpringyFlowLayout.swift */; };
+		99E3C4BB19D068F200717458 /* MagazineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E3C4BA19D068F200717458 /* MagazineTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99551CB419CB577100BD4D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99551C9319CB577100BD4D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99551C9A19CB577100BD4D51;
+			remoteInfo = RevistaAdventista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9913774C19D9CB5300FEDE47 /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		9913774E19D9CB9C00FEDE47 /* FeaturedCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionView.swift; sourceTree = "<group>"; };
+		9913775019D9CBE700FEDE47 /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
+		992DC03519D0A114007D9B9A /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		992DC03619D0A114007D9B9A /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		992DC03719D0A114007D9B9A /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		992DC03819D0A114007D9B9A /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		992DC03919D0A114007D9B9A /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		992DC03A19D0A114007D9B9A /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		992DC03B19D0A114007D9B9A /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		992DC03C19D0A114007D9B9A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		992DC03D19D0A114007D9B9A /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		992DC03E19D0A114007D9B9A /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		992DC03F19D0A114007D9B9A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		992DC04B19D0A1FF007D9B9A /* CocoaFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaFonts.swift; sourceTree = "<group>"; };
+		992DC04D19D0AD4F007D9B9A /* MagazineCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineCollectionViewCell.swift; sourceTree = "<group>"; };
+		99551C9B19CB577100BD4D51 /* SwiftMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99551C9F19CB577100BD4D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99551CA019CB577100BD4D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99551CA819CB577100BD4D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99551CAA19CB577100BD4D51 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99551CAD19CB577100BD4D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99551CB319CB577100BD4D51 /* SwiftMagazineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMagazineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99551CB819CB577100BD4D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99551CB919CB577100BD4D51 /* SwiftMagazineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMagazineTests.swift; sourceTree = "<group>"; };
+		9984E83119D0B21100A60D40 /* Lato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lato.swift; sourceTree = "<group>"; };
+		999C51FC19CB5DDB00BC65CE /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		999C520219CB73F400BC65CE /* MagazineCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineCollectionView.swift; sourceTree = "<group>"; };
+		99A9A5C319D1C0A700383300 /* SpringyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringyFlowLayout.swift; sourceTree = "<group>"; };
+		99E3C4BA19D068F200717458 /* MagazineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99551C9819CB577100BD4D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99551CB019CB577100BD4D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB7058719E63F840053C51E /* CocoaFonts */ = {
+			isa = PBXGroup;
+			children = (
+				992DC04B19D0A1FF007D9B9A /* CocoaFonts.swift */,
+				9984E83119D0B21100A60D40 /* Lato.swift */,
+			);
+			name = CocoaFonts;
+			sourceTree = "<group>";
+		};
+		9913775319D9CE9800FEDE47 /* Magazine */ = {
+			isa = PBXGroup;
+			children = (
+				99E3C4BA19D068F200717458 /* MagazineTableViewCell.swift */,
+				999C520219CB73F400BC65CE /* MagazineCollectionView.swift */,
+				992DC04D19D0AD4F007D9B9A /* MagazineCollectionViewCell.swift */,
+			);
+			name = Magazine;
+			sourceTree = "<group>";
+		};
+		9913775419D9CEA600FEDE47 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				9913774C19D9CB5300FEDE47 /* FeaturedTableViewCell.swift */,
+				9913774E19D9CB9C00FEDE47 /* FeaturedCollectionView.swift */,
+				9913775019D9CBE700FEDE47 /* FeaturedCollectionViewCell.swift */,
+			);
+			name = Featured;
+			sourceTree = "<group>";
+		};
+		992DC03319D0A114007D9B9A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				992DC03419D0A114007D9B9A /* Lato */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		992DC03419D0A114007D9B9A /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				992DC03519D0A114007D9B9A /* Lato-Black.ttf */,
+				992DC03619D0A114007D9B9A /* Lato-BlackItalic.ttf */,
+				992DC03719D0A114007D9B9A /* Lato-Bold.ttf */,
+				992DC03819D0A114007D9B9A /* Lato-BoldItalic.ttf */,
+				992DC03919D0A114007D9B9A /* Lato-Hairline.ttf */,
+				992DC03A19D0A114007D9B9A /* Lato-HairlineItalic.ttf */,
+				992DC03B19D0A114007D9B9A /* Lato-Italic.ttf */,
+				992DC03C19D0A114007D9B9A /* Lato-Light.ttf */,
+				992DC03D19D0A114007D9B9A /* Lato-LightItalic.ttf */,
+				992DC03E19D0A114007D9B9A /* Lato-Regular.ttf */,
+				992DC03F19D0A114007D9B9A /* OFL.txt */,
+			);
+			path = Lato;
+			sourceTree = "<group>";
+		};
+		99551C9219CB577100BD4D51 = {
+			isa = PBXGroup;
+			children = (
+				99551C9D19CB577100BD4D51 /* SwiftMagazine */,
+				99551CB619CB577100BD4D51 /* SwiftMagazineTests */,
+				99551C9C19CB577100BD4D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99551C9C19CB577100BD4D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99551C9B19CB577100BD4D51 /* SwiftMagazine.app */,
+				99551CB319CB577100BD4D51 /* SwiftMagazineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99551C9D19CB577100BD4D51 /* SwiftMagazine */ = {
+			isa = PBXGroup;
+			children = (
+				1AB7058719E63F840053C51E /* CocoaFonts */,
+				99551CA019CB577100BD4D51 /* AppDelegate.swift */,
+				999C51FC19CB5DDB00BC65CE /* LibraryTableViewController.swift */,
+				99A9A5C319D1C0A700383300 /* SpringyFlowLayout.swift */,
+				9913775419D9CEA600FEDE47 /* Featured */,
+				9913775319D9CE9800FEDE47 /* Magazine */,
+				99551CA719CB577100BD4D51 /* Main.storyboard */,
+				99551CAC19CB577100BD4D51 /* LaunchScreen.xib */,
+				99551CAA19CB577100BD4D51 /* Images.xcassets */,
+				99551C9E19CB577100BD4D51 /* Supporting Files */,
+			);
+			path = SwiftMagazine;
+			sourceTree = "<group>";
+		};
+		99551C9E19CB577100BD4D51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99551C9F19CB577100BD4D51 /* Info.plist */,
+				992DC03319D0A114007D9B9A /* Fonts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99551CB619CB577100BD4D51 /* SwiftMagazineTests */ = {
+			isa = PBXGroup;
+			children = (
+				99551CB919CB577100BD4D51 /* SwiftMagazineTests.swift */,
+				99551CB719CB577100BD4D51 /* Supporting Files */,
+			);
+			path = SwiftMagazineTests;
+			sourceTree = "<group>";
+		};
+		99551CB719CB577100BD4D51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99551CB819CB577100BD4D51 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99551C9A19CB577100BD4D51 /* SwiftMagazine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99551CBD19CB577100BD4D51 /* Build configuration list for PBXNativeTarget "SwiftMagazine" */;
+			buildPhases = (
+				99551C9719CB577100BD4D51 /* Sources */,
+				99551C9819CB577100BD4D51 /* Frameworks */,
+				99551C9919CB577100BD4D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMagazine;
+			productName = RevistaAdventista;
+			productReference = 99551C9B19CB577100BD4D51 /* SwiftMagazine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99551CB219CB577100BD4D51 /* SwiftMagazineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99551CC019CB577100BD4D51 /* Build configuration list for PBXNativeTarget "SwiftMagazineTests" */;
+			buildPhases = (
+				99551CAF19CB577100BD4D51 /* Sources */,
+				99551CB019CB577100BD4D51 /* Frameworks */,
+				99551CB119CB577100BD4D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99551CB519CB577100BD4D51 /* PBXTargetDependency */,
+			);
+			name = SwiftMagazineTests;
+			productName = RevistaAdventistaTests;
+			productReference = 99551CB319CB577100BD4D51 /* SwiftMagazineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99551C9319CB577100BD4D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "CocoaHeads Brasil";
+				TargetAttributes = {
+					99551C9A19CB577100BD4D51 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					99551CB219CB577100BD4D51 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 99551C9A19CB577100BD4D51;
+					};
+				};
+			};
+			buildConfigurationList = 99551C9619CB577100BD4D51 /* Build configuration list for PBXProject "SwiftMagazine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99551C9219CB577100BD4D51;
+			productRefGroup = 99551C9C19CB577100BD4D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99551C9A19CB577100BD4D51 /* SwiftMagazine */,
+				99551CB219CB577100BD4D51 /* SwiftMagazineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99551C9919CB577100BD4D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992DC04A19D0A114007D9B9A /* OFL.txt in Resources */,
+				992DC04619D0A114007D9B9A /* Lato-Italic.ttf in Resources */,
+				992DC04019D0A114007D9B9A /* Lato-Black.ttf in Resources */,
+				992DC04219D0A114007D9B9A /* Lato-Bold.ttf in Resources */,
+				992DC04719D0A114007D9B9A /* Lato-Light.ttf in Resources */,
+				99551CA919CB577100BD4D51 /* Main.storyboard in Resources */,
+				992DC04119D0A114007D9B9A /* Lato-BlackItalic.ttf in Resources */,
+				99551CAE19CB577100BD4D51 /* LaunchScreen.xib in Resources */,
+				992DC04819D0A114007D9B9A /* Lato-LightItalic.ttf in Resources */,
+				992DC04519D0A114007D9B9A /* Lato-HairlineItalic.ttf in Resources */,
+				992DC04319D0A114007D9B9A /* Lato-BoldItalic.ttf in Resources */,
+				992DC04919D0A114007D9B9A /* Lato-Regular.ttf in Resources */,
+				992DC04419D0A114007D9B9A /* Lato-Hairline.ttf in Resources */,
+				99551CAB19CB577100BD4D51 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99551CB119CB577100BD4D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99551C9719CB577100BD4D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992DC04C19D0A1FF007D9B9A /* CocoaFonts.swift in Sources */,
+				992DC04E19D0AD4F007D9B9A /* MagazineCollectionViewCell.swift in Sources */,
+				9913775119D9CBE700FEDE47 /* FeaturedCollectionViewCell.swift in Sources */,
+				9913774F19D9CB9C00FEDE47 /* FeaturedCollectionView.swift in Sources */,
+				999C520319CB73F400BC65CE /* MagazineCollectionView.swift in Sources */,
+				99E3C4BB19D068F200717458 /* MagazineTableViewCell.swift in Sources */,
+				9913774D19D9CB5300FEDE47 /* FeaturedTableViewCell.swift in Sources */,
+				99551CA119CB577100BD4D51 /* AppDelegate.swift in Sources */,
+				9984E83219D0B21100A60D40 /* Lato.swift in Sources */,
+				999C51FD19CB5DDB00BC65CE /* LibraryTableViewController.swift in Sources */,
+				99A9A5C419D1C0A700383300 /* SpringyFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99551CAF19CB577100BD4D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99551CBA19CB577100BD4D51 /* SwiftMagazineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99551CB519CB577100BD4D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99551C9A19CB577100BD4D51 /* SwiftMagazine */;
+			targetProxy = 99551CB419CB577100BD4D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99551CA719CB577100BD4D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99551CA819CB577100BD4D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99551CAC19CB577100BD4D51 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99551CAD19CB577100BD4D51 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99551CBB19CB577100BD4D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99551CBC19CB577100BD4D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99551CBE19CB577100BD4D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftMagazine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftMagazine;
+			};
+			name = Debug;
+		};
+		99551CBF19CB577100BD4D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftMagazine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = SwiftMagazine;
+			};
+			name = Release;
+		};
+		99551CC119CB577100BD4D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMagazineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SwiftMagazineTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMagazine.app/SwiftMagazine";
+			};
+			name = Debug;
+		};
+		99551CC219CB577100BD4D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftMagazineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = SwiftMagazineTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftMagazine.app/SwiftMagazine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99551C9619CB577100BD4D51 /* Build configuration list for PBXProject "SwiftMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99551CBB19CB577100BD4D51 /* Debug */,
+				99551CBC19CB577100BD4D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99551CBD19CB577100BD4D51 /* Build configuration list for PBXNativeTarget "SwiftMagazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99551CBE19CB577100BD4D51 /* Debug */,
+				99551CBF19CB577100BD4D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99551CC019CB577100BD4D51 /* Build configuration list for PBXNativeTarget "SwiftMagazineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99551CC119CB577100BD4D51 /* Debug */,
+				99551CC219CB577100BD4D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99551C9319CB577100BD4D51 /* Project object */;
+}
