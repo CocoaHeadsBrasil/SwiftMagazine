@@ -22,6 +22,7 @@ class MagazineCollectionView: UICollectionView {
         layout.itemSize = CGSize(width: 160, height: 265)
         layout.minimumLineSpacing = 15
         layout.minimumInteritemSpacing = 15
+        layout.scrollDirection = UICollectionViewScrollDirection.Horizontal;
         
         // Init
         super.init(frame: frame, collectionViewLayout: layout)

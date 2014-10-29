@@ -23,7 +23,6 @@ class SpringyFlowLayout: UICollectionViewFlowLayout {
     override init() {
         super.init()
         
-        self.scrollDirection = UICollectionViewScrollDirection.Horizontal;
         self.dynamicAnimator = UIDynamicAnimator(collectionViewLayout: self)
         self.visibleIndexPathsSet = NSMutableSet()
     }
